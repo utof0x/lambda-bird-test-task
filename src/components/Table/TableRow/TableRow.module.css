@@ -1,0 +1,63 @@
+.row {
+  height: 60px;
+  display: flex;
+  font-size: 24px;
+  border-top: 1px solid #1f263a;
+  border-right: 1px solid #1f263a;
+}
+
+.row:last-child {
+  border-bottom: 1px solid #1f263a;
+}
+
+.rowItem {
+  border-left: 1px solid #1f263a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rowRank {
+  width: 150px;
+}
+
+.rowName {
+  width: 300px;
+}
+
+.rowHits {
+  width: 200px;
+}
+
+.hitsBackground {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  background: #f1eedd;
+  border: 1px solid black;
+  border-right: none;
+}
+
+.hitsBackground:last-child {
+  border-right: 1px solid black;
+}
+
+.hitCircle {
+  height: 20px;
+  width: 20px;
+  background: #f8f8ff;
+  border-radius: 50%;
+}
+
+.missCircle {
+  height: 20px;
+  width: 20px;
+  background: black;
+  border-radius: 50%;
+}
+
+.rowFireRate {
+  width: 200px;
+}

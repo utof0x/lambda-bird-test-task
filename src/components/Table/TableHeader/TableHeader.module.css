@@ -1,0 +1,41 @@
+.header {
+  height: 60px;
+  display: flex;
+  font-size: 24px;
+  border-top: 1px solid #1f263a;
+  border-right: 1px solid #1f263a;
+}
+
+.headerItem {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  position: relative;
+  border-left: 1px solid #1f263a;
+  line-height: 60px;
+  cursor: pointer;
+}
+
+.headerRank {
+  width: 150px;
+}
+
+.headerName {
+  width: 300px;
+}
+
+.headerHits {
+  width: 200px;
+}
+
+.headerFireRate {
+  width: 200px;
+}
+
+.sortIcon {
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  top: 7px;
+  right: 10px;
+}
